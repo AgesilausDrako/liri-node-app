@@ -7,7 +7,7 @@ var action = process.argv[2];
 var value = process.argv[3];
 
 switch (action) {
-	case "my-tweets":
+  case "my-tweets":
     twitter();
     break;
 
@@ -35,13 +35,15 @@ function twitter() {
 	var params = {screen_name: "darth_polyglot", count: 20 };
 	client.get("statuses/user_timeline", params, function(error, tweets, response) {
 	  if (!error) {
-	  	var count= 0;
+	  	var count = 0;
 	  	if(tweets.length > 20) {
-	  		count =20;
+	  		count = 20;
 	  	} else {
 	  		count = tweets.length;
 	  		for (var i=0; i<count; i++) {
-	  			console.log("Date Created: " + tweets[i].created_at + " " + tweets[i].text);
+	  			var tweetOutput = "Date Created: " + tweets[i].created_at + " " + tweets[i].text;
+	  			// log(tweetOutput);
+	  			console.log(tweetOutput);
 	  		}
 	  	}   
 	  }
@@ -55,12 +57,17 @@ function spotify() {
 	  secret: keys.spotifyKeys.secret
 	});
 	 
-	spotify.search({ type: 'track', query: value }).then(function(response) {
-    console.log(response);
-  })
-  .catch(function(err) {
-    console.log(err);
-  });
+	spotify.search({ type: 'track', query: value, limit: 1 }).then(function(response) {
+	console.log(response);
+	// var data = JSON.parse(response);
+	// console.log(data);
+	// 	for (var key in response) {
+	// 		console.log(key, response[key]);
+	// 	}
+	})
+	.catch(function(err) {
+	  console.log(err);
+	});
 }
 
 function movie() {
@@ -72,15 +79,20 @@ function movie() {
 	  
 	  if (!error && response.statusCode === 200) {
 
-			var rotten = "Rotten Tomatoes";
-	  	var movieOutput = `Title: ` + JSON.parse(body).Title + `\n` +
-			    		  `Release Year: ` + JSON.parse(body).Year + `\n` +
-			    		  `IMDB Rating: ` + JSON.parse(body).imdbRating + `\n` +
-			    		  //`Rotten Tomatoes Rating: ` + JSON.parse(body).Ratings.Source.${rotten}.Value + `\n` +
-			    		  `Country: ` + JSON.parse(body).Country + `\n` +
-			    	      `Language: ` + JSON.parse(body).Language + `\n` +
-			    	      `Plot: ` + JSON.parse(body).Plot + `\n` +
-			    	      `Actors: ` + JSON.parse(body).Actors
+	  	var bodyObj = JSON.parse(body);
+	  	var ratings = "";
+
+	    bodyObj.Ratings.forEach(function(item) {
+	      ratings += `${item.Source} - ${item.Value}\n`;
+	    });
+	  	
+	  	var movieOutput = "Title: " + bodyObj.Title + "\n" +
+  					    "Release Year: " + bodyObj.Year + "\n" +
+  						"Ratings: " + ratings +
+						"Country: " + bodyObj.Country + "\n" +
+			    	    "Language: " + bodyObj.Language + "\n" + 
+			    	    "Plot: " + bodyObj.Plot + "\n" +
+			    	    "Actors: " + bodyObj.Actors;
 
 	    console.log(movieOutput);
 	  }
@@ -94,9 +106,29 @@ function text() {
 	  if (error) {
 	    return console.log(error);
 		}
-			
-	  spotify(data);
+		// Break the string down by comma separation and store the contents into the output array.
+		  var output = data.split(",");
+		  var command = output[0];
+		  value = output[1];
 
+		  // Loop Through the newly created output array
+		  for (var i = 0; i < output.length; i++) {
+
+		    // Print each element (item) of the array/
+		    console.log(output[i]);
+	  	}
+
+	  	if (command === "movie-this") {
+	  		movie(value);
+	  	}
+
+	  	if (command === "spotify-this-song") {
+	  		spotify(value);
+	  	}
+
+	  	if (command === "my-tweets") {
+	  		twitter();
+	  	}
 	});
 }
 
