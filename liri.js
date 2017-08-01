@@ -59,6 +59,8 @@ function spotify() {
 	 
 	spotify.search({ type: 'track', query: value, limit: 1 }).then(function(response) {
 	console.log(response);
+	var data = JSON.stringify(response);
+	console.log(data);
 	// var data = JSON.parse(response);
 	// console.log(data);
 	// 	for (var key in response) {
@@ -71,11 +73,12 @@ function spotify() {
 }
 
 function movie() {
+
+	if (value === undefined) {
+	  	value = "Mr Nobody";
+	}
 	
 	request("http://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=" + keys.omdb.key, function(error, response, body) {
-	  if (!value) {
-	  	value = "Mr. Nobody";
-		}
 	  
 	  if (!error && response.statusCode === 200) {
 
