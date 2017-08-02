@@ -124,9 +124,9 @@ function movie() {
 			    	    "Actors: " + bodyObj.Actors;
 		// Output is logged to the console
 	    console.log(movieOutput);
+	    // Logs the data to the random.txt file
+	  	log(action, value, movieOutput);
 	  }
-	  // Logs the data to the random.txt file
-	  log(action, value, movieOutput);
 	});
 }
 
