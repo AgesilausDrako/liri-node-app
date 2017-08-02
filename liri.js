@@ -59,7 +59,7 @@ function spotify() {
 	spotify.search({ type: 'track', query: value, limit: 1 }).then(function(response) {
 	// console.log(response);
 	var data = response.tracks.items;
-	console.log(data[0].album.artists);
+	console.log(`Artist: ${data[0].album.artists[0].name}`);
 		// for (var key in data) {
 		// 	console.log(key, data.[key]);
 		// }
