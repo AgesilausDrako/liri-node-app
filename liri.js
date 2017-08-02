@@ -56,16 +56,13 @@ function spotify() {
 	  id: keys.spotifyKeys.id,
 	  secret: keys.spotifyKeys.secret
 	});
-	 
 	spotify.search({ type: 'track', query: value, limit: 1 }).then(function(response) {
-	console.log(response);
-	var data = JSON.stringify(response);
-	console.log(data);
-	// var data = JSON.parse(response);
-	// console.log(data);
-	// 	for (var key in response) {
-	// 		console.log(key, response[key]);
-	// 	}
+	// console.log(response);
+	var data = response.tracks.items;
+	console.log(data[0].album.artists);
+		// for (var key in data) {
+		// 	console.log(key, data.[key]);
+		// }
 	})
 	.catch(function(err) {
 	  console.log(err);
