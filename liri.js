@@ -68,6 +68,11 @@ function spotify() {
 	  id: keys.spotifyKeys.id,
 	  secret: keys.spotifyKeys.secret
 	});
+
+	// Defaults to a value if no input made
+	if (value === undefined) {
+	  	value = "The Sign";
+	}
 	spotify.search({ type: 'track', query: value, limit: 1 }).then(function(response) {
 	// console.log(response);
 	// Data is parsed with dot notation and saved in corresponding variables
