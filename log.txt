@@ -1,0 +1,58 @@
+my-tweets 
+Date Created: Wed Aug 02 17:29:34 +0000 2017 How long does Sessions have left?
+
+my-tweets 
+Date Created: Wed Aug 02 17:28:31 +0000 2017 Project working makes me smile. :)
+
+my-tweets 
+Date Created: Tue Aug 01 01:24:58 +0000 2017 Ready to watch Game of Thrones!
+
+my-tweets 
+Date Created: Mon Jul 31 18:51:32 +0000 2017 Well that was short. LOL! https://t.co/op5CqF15uu
+
+my-tweets 
+Date Created: Mon Jul 31 16:08:54 +0000 2017 Huh? Crazy. https://t.co/FRKymdo0aB
+
+my-tweets 
+Date Created: Mon Jul 31 16:07:53 +0000 2017 At least this sadness is over. https://t.co/OOLRi1ywmH
+
+my-tweets 
+Date Created: Mon Jul 31 16:06:52 +0000 2017 I can't believe it's already Monday. #sad
+
+my-tweets 
+Date Created: Fri Jul 28 16:14:22 +0000 2017 Can't wait for football season to start! Hope the Packers dominate!
+
+spotify-this-song Mein Teil
+Artist: Rammstein
+Song: MEIN TEIL
+Album: Reise, Reise
+Preview: https://api.spotify.com/v1/artists/6wWVKhxIU2cEi0K81v7HvP
+
+movie-this Aliens
+Title: Aliens
+Release Year: 1986
+Ratings: Internet Movie Database - 8.4/10
+Rotten Tomatoes - 98%
+Metacritic - 87/100
+Country: USA, UK
+Language: English
+Plot: The moon from Alien (1979) has been colonized, but contact is lost. This time, the rescue team has impressive firepower, but will it be enough?
+Actors: Sigourney Weaver, Carrie Henn, Michael Biehn, Paul Reiser
+
+do-what-it-says "I want it that way"
+Artist: Backstreet Boys
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview: https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7
+
+movie-this Mr Nobody
+Title: Mr. Nobody
+Release Year: 2009
+Ratings: Internet Movie Database - 7.9/10
+Rotten Tomatoes - 64%
+Metacritic - 63/100
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
