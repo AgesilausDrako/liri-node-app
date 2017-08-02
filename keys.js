@@ -1,5 +1,5 @@
 // Logs when the file is used
-//console.log('this is loaded');
+console.log('this is loaded');
 
 exports.twitterKeys = {
   consumer_key: '39qMfvCmLPDJoUmLB0uB6i7qt',
