@@ -9,25 +9,6 @@ var fs = require("fs");
 var action = process.argv[2];
 var value = process.argv[3];
 
-// Sets up the conditions for action and calls the corresponding function
-switch (action) {
-  case "my-tweets":
-    twitter();
-    break;
-
-  case "spotify-this-song":
-    spotify();
-    break;
-
-  case "movie-this":
-    movie();
-    break;
-
-  case "do-what-it-says":
-    text();
-    break;
-}
-
 // Function which calls the last 20 tweets from Twitter
 function twitter() {
 	// Makes Twitter request and retrieves keys from keys file
@@ -172,4 +153,23 @@ function log(action, value, data) {
 	    return console.log(err);
 	  }
 	});
+}
+
+// Sets up the conditions for action and calls the corresponding function
+switch (action) {
+  case "my-tweets":
+    twitter();
+    break;
+
+  case "spotify-this-song":
+    spotify();
+    break;
+
+  case "movie-this":
+    movie();
+    break;
+
+  case "do-what-it-says":
+    text();
+    break;
 }
