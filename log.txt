@@ -1,4 +1,7 @@
 my-tweets 
+Date Created: Wed Aug 02 19:15:34 +0000 2017 Node.js rocks!
+
+my-tweets 
 Date Created: Wed Aug 02 17:29:34 +0000 2017 How long does Sessions have left?
 
 my-tweets 
@@ -26,7 +29,7 @@ spotify-this-song Mein Teil
 Artist: Rammstein
 Song: MEIN TEIL
 Album: Reise, Reise
-Preview: https://api.spotify.com/v1/artists/6wWVKhxIU2cEi0K81v7HvP
+Preview: https://api.spotify.com/v1/tracks/2OQRceDfxBfmwTEmNOSpFq
 
 movie-this Aliens
 Title: Aliens
@@ -43,7 +46,13 @@ do-what-it-says "I want it that way"
 Artist: Backstreet Boys
 Song: I Want It That Way
 Album: The Hits--Chapter One
-Preview: https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7
+Preview: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+
+spotify-this-song The Sign
+Artist: Harry Styles
+Song: Sign of the Times
+Album: Sign of the Times
+Preview: https://api.spotify.com/v1/tracks/5ELRkzdzz0HvGpMDlfZHkV
 
 movie-this Mr Nobody
 Title: Mr. Nobody
@@ -55,5 +64,4 @@ Country: Belgium, Germany, Canada, France, USA, UK
 Language: English, Mohawk
 Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-
 

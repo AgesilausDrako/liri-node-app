@@ -61,7 +61,7 @@ function spotify() {
 	var artistName = data.album.artists[0].name;
 	var songName = data.name;
 	var albumName = data.album.name;
-	var songURL = data.album.artists[0].href;
+	var songURL = data.href;
 	
 	// Final variable for output
 	var spotifyOutput = "Artist: " + artistName + "\n" +
