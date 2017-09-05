@@ -14,8 +14,8 @@ This will install all the packages and their necessary versions according to the
 In order to run liri the user will need to: 
 1. Pull the files and navigate to the proper folder. 
 2. In order to pull the most recent tweets the user will need to enter into the console: **node liri.js my-tweets**
-3. In order to query data about a specific song the user will need to enter into the console: **node liri.js spotify-this-song '<song name here>'**
-4. In order to query data about a specific movie the user will need to enter into the console: **node liri.js movie-this '<movie name here>'**
+3. In order to query data about a specific song the user will need to enter into the console: **node liri.js spotify-this-song 'song name here'**
+4. In order to query data about a specific movie the user will need to enter into the console: **node liri.js movie-this 'movie name here'**
 5. Liri can also execute preset instructions by reading a file. To do that the user must enter into the console: **node liri.js do-what-it-says** (At the moment the file is set to spotify a song but it could easily be modified for more commands)
 6. The user can continue making queries until done.
 
