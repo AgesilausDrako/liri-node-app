@@ -43,7 +43,6 @@ function twitter() {
 
 // Function which retrieves data from Spotify API based on song title input
 function spotify() {
-
 	// Makes Spotify requests and retrieves keys from keys.js
 	var spotify = new Spotify({
 	  id: keys.spotifyKeys.id,
