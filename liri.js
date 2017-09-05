@@ -79,7 +79,6 @@ function spotify() {
 
 // Function which retrieves data from OMDB API based on movie title input
 function movie() {
-
 	// Defaults to a value if no input made
 	if (value === undefined) {
 	  	value = "Mr Nobody";
