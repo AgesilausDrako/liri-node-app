@@ -103,8 +103,8 @@ function movie() {
 	  	// Final variable for output
 	  	var movieOutput = "Title: " + bodyObj.Title + "\n" +
   					    "Release Year: " + bodyObj.Year + "\n" +
-  						"Ratings: " + ratings +
-						"Country: " + bodyObj.Country + "\n" +
+  						  "Ratings: " + ratings +
+							  "Country: " + bodyObj.Country + "\n" +
 			    	    "Language: " + bodyObj.Language + "\n" + 
 			    	    "Plot: " + bodyObj.Plot + "\n" +
 			    	    "Actors: " + bodyObj.Actors;

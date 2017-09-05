@@ -65,3 +65,42 @@ Language: English, Mohawk
 Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 
+movie-this Assassin's Creed
+Title: Assassin's Creed
+Release Year: 2016
+Ratings: Internet Movie Database - 5.9/10
+Rotten Tomatoes - 18%
+Metacritic - 36/100
+Country: UK, France, Malta, USA, Taiwan, Canada, Hong Kong
+Language: English, Spanish, Arabic
+Plot: Callum Lynch explores the memories of his ancestor Aguilar de Nerha and gains the skills of a Master Assassin, before taking on the secret Templar society.
+Actors: Michael Fassbender, Marion Cotillard, Jeremy Irons, Brendan Gleeson
+
+movie-this Saving Private Ryan
+Title: Saving Private Ryan
+Release Year: 1998
+Ratings: Internet Movie Database - 8.6/10
+Rotten Tomatoes - 92%
+Metacritic - 90/100
+Country: USA
+Language: English, French, German, Czech
+Plot: Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+Actors: Tom Hanks, Tom Sizemore, Edward Burns, Barry Pepper
+
+movie-this Batman vs. Superman
+Title: LEGO Batman vs. Superman 2: Dawn of Just Desserts
+Release Year: 2015
+Ratings: Internet Movie Database - 7.9/10
+Country: USA
+Language: English
+Plot: A parody of Dawn Of Justice Comic.
+Actors: Tommy Amaral III, Kara Eberle, Chris Lovingood, Kevin McShane
+
+movie-this Batman vs Superman
+Title: Skyfest 2015: Batman vs Superman
+Release Year: 2016
+Ratings: Country: USA
+Language: English
+Plot: A brand new Batman/Superman adventure first told live in front of 7,600 people at a minor league baseball game.
+Actors: Erik Brevik, Jesse Phillips, Karl Brevik, Matt Radcliffe
+
