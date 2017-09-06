@@ -122,7 +122,7 @@ function text() {
 	  if (error) {
 	    return console.log(error);
 		}
-		  // Breaks the string down by comma separation and store the contents into the output array.
+		  // Breaks the string down by comma separation and stores the contents into the output array.
 		  var output = data.split(",");
 		  // Variable which saves the input for calling the necessary action function
 		  var command = output[0];
